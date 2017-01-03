@@ -34,15 +34,11 @@ def setupLogger():
 def setupWaitTime():
     global wait
     try:
-        possible_wait = sys.argv[3]
-    except:
-        logging.info("No wait time supplied, using default of 5 seconds")
-    if possible_wait:
-        wait = int(possible_wait)
+        wait = int(sys.argv[3])
         logging.info("Using wait time of %s" % (str(wait)))
-    else:
+    except:
         wait = 5
-
+        logging.info("No wait time supplied, using default of 5 seconds")
 
 def is_number(s):
     try:
@@ -138,8 +134,8 @@ class CSV():
             "Method",
             "Browser",
             "User-Agent"])
-        file_destination = "GoodRx-%s" % \
-            (datetime.datetime.now().strftime("%m-%d-%y-%H:%M"),)
+        file_destination = "GoodRx-%s.csv" % \
+            (datetime.datetime.now().strftime("%m-%d-%y-%H-%M"),)
         try:
             with open(file_destination, "wb") as outfile:
                 writer = csv.writer(outfile)
@@ -242,6 +238,7 @@ class Driver():
         try:
             driver = webdriver.Chrome(executable_path=self.chromedriver_path,
                                        chrome_options=opts)
+            driver.set_window_position(-2000,-2000)
         except Exception as e:
             log.error(traceback.format_exc())
             log.error("Can't initialize browser. Is the chromedriver in the same directory as the exe?")
@@ -258,6 +255,7 @@ class Driver():
         try:
             driver = webdriver.Chrome(executable_path=self.chromedriver_path,
                                       chrome_options=opts)
+            driver.set_window_position(-2000,-2000)
         except Exception as e:
             log.error(traceback.format_exc())
             log.error("Can't initialize browser. Is the chromedriver in the same directory as the exe?")
@@ -342,47 +340,55 @@ def Chrome(driver, drug):
 
 
 def InternetExplorer(driver, drug):
-    location_input = WebDriverWait(driver, wait).until(\
-        EC.presence_of_element_located((By.XPATH,
-        "//input[contains(@class, 'span9') and "\
-        "contains(@placeholder, 'Enter your ZIP code')]")))
-    location_input.send_keys(str(drug.location) + "\n")
-    time.sleep(wait)
+    try:
+        location_input = WebDriverWait(driver, wait).until(\
+            EC.presence_of_element_located((By.XPATH,
+            "//input[contains(@class, 'span9') and "\
+            "contains(@placeholder, 'Enter your ZIP code')]")))
+        location_input.send_keys(str(drug.location) + "\n")
+        time.sleep(wait*1.5)
+    except Exception as e:
+        log.error(traceback.format_exc())
+        log.error("Couldn't load location for %s in browser %s" % (drug, "Internet Explorer"))
+        return []
+    try:
+        view_more_pharmacies = True
+        coupons = []
+        Coupon = namedtuple("Coupon", ["price", "store_name", "method"])
+        while view_more_pharmacies:
+            view_more_pharmacies = False
+            if coupons:
+                driver.find_element_by_id("load-more-pharmacies").click()
+                time.sleep(wait*1.5)
+                modal = driver.find_elements_by_xpath("//div[contains(@class,"\
+                    "'modal-backdrop') and contains(@class, 'in')]")
+                if modal:
+                    dont_show_again = WebDriverWait(driver, wait).until(\
+                        EC.presence_of_element_located((By.CLASS_NAME, "dont-show-again")))
+                    time.sleep(wait)
+                    dont_show_again.click()
 
-    view_more_pharmacies = True
-    coupons = []
-    Coupon = namedtuple("Coupon", ["price", "store_name", "method"])
-    while view_more_pharmacies:
-        view_more_pharmacies = False
-        if coupons:
-            driver.find_element_by_id("load-more-pharmacies").click()
-            time.sleep(wait)
-            modal = driver.find_elements_by_xpath("//div[contains(@class, 'modal-backdrop') "\
-            "and contains(@class, 'in')]")
-            if modal:
-                dont_show_again = WebDriverWait(driver, wait).until(\
-                    EC.presence_of_element_located((By.CLASS_NAME, "dont-show-again")))
-                time.sleep(wait)
-                dont_show_again.click()
-
-        row_region = driver.find_element_by_class_name("price-group-expanded")
-        rows = row_region.find_elements_by_class_name("drug-prices-result")
-        for row in rows:
-            store_name = row.find_element_by_class_name("result-title").text
-            method = processButton(row.find_element_by_class_name("span3").text)
-            possible_price = row.find_element_by_class_name("price").text
-            if not is_number(possible_price):
-                if possible_price == "FREE":
-                    price = 0
+            row_region = driver.find_element_by_class_name("price-group-expanded")
+            rows = row_region.find_elements_by_class_name("drug-prices-result")
+            for row in rows:
+                store_name = row.find_element_by_class_name("result-title").text
+                method = processButton(row.find_element_by_class_name("span3").text)
+                possible_price = row.find_element_by_class_name("price").text
+                if not is_number(possible_price):
+                    if possible_price == "FREE":
+                        price = 0
+                    else:
+                        price = "Could not find price"
                 else:
-                    price = "Could not find price"
-            else:
-                price = possible_price
+                    price = possible_price
 
-            possible_coupon = Coupon(price, store_name, method)
-            if possible_coupon not in coupons:
-                coupons.append(possible_coupon)
-                view_more_pharmacies = True
+                possible_coupon = Coupon(price, store_name, method)
+                if possible_coupon not in coupons:
+                    coupons.append(possible_coupon)
+                    view_more_pharmacies = True
+    except Exception as e:
+        log.error(traceback.format_exc())
+        log.error("Main parsing logic broken for Internet Explorer:\n%s\n%s" % (drug, coupons,))
     return coupons
 
 
