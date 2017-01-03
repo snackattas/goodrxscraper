@@ -1,0 +1,213 @@
+"Price
+",Store,Drug Name,Form,Dosage,Quantity,Label Override,Zip/Location,Method,"User-Agent
+"
+6.22,Walmart,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 8
+7.67,Membership warehouse,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 9
+9.12,Walgreens,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 10
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 11
+11.64,CVS Pharmacy,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 12
+11.64,Target (CSV),lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 13
+12,HealthWarehouse,lipitor,tablet,40mg,30,atorvastin,53703,Online,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 14
+6.22,Walmart,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+7.67,Membership warehouse,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+9.12,Walgreens,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+11.64,CVS Pharmacy,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+11.64,Target (CSV),lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+12,HealthWarehouse,lipitor,tablet,40mg,30,atorvastin,53703,Online,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+6.22,Walmart,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.51
+7.67,Membership warehouse,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.52
+9.12,Walgreens,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.53
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.54
+11.64,CVS Pharmacy,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.55
+11.64,Target (CSV),lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.56
+12,HealthWarehouse,lipitor,tablet,40mg,30,atorvastin,53703,Online,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.57
+6.22,Walmart,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.36
+7.67,Membership warehouse,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.37
+9.12,Walgreens,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.38
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.39
+11.64,CVS Pharmacy,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.40
+11.64,Target (CSV),lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.41
+12,HealthWarehouse,lipitor,tablet,40mg,30,atorvastin,53703,Online,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.42
+6.22,Walmart,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.36
+7.67,Membership warehouse,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.37
+9.12,Walgreens,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.38
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.39
+11.64,CVS Pharmacy,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.40
+11.64,Target (CSV),lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.41
+12,HealthWarehouse,lipitor,tablet,40mg,30,atorvastin,53703,Online,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.42
+6.22,Walmart,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.36
+7.67,Membership warehouse,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.37
+9.12,Walgreens,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.38
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.39
+11.64,CVS Pharmacy,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.40
+11.64,Target (CSV),lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.41
+12,HealthWarehouse,lipitor,tablet,40mg,30,atorvastin,53703,Online,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.42
+6.22,Walmart,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.0
+7.67,Membership warehouse,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.1
+9.12,Walgreens,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.2
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.3
+11.64,CVS Pharmacy,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.4
+11.64,Target (CSV),lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.5
+12,HealthWarehouse,lipitor,tablet,40mg,30,atorvastin,53703,Online,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.6
+6.22,Walmart,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+7.67,Membership warehouse,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.1
+9.12,Walgreens,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.2
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.3
+11.64,CVS Pharmacy,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.4
+11.64,Target (CSV),lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.5
+12,HealthWarehouse,lipitor,tablet,40mg,30,atorvastin,53703,Online,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.6
+6.22,Walmart,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.27
+7.67,Membership warehouse,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.28
+9.12,Walgreens,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.29
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.30
+11.64,CVS Pharmacy,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.31
+11.64,Target (CSV),lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.32
+12,HealthWarehouse,lipitor,tablet,40mg,30,atorvastin,53703,Online,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.33
+6.22,Walmart,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.36
+7.67,Membership warehouse,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.37
+9.12,Walgreens,lipitor,tablet,40mg,30,atorvastin,53703,Discount,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.38
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.39
+11.64,CVS Pharmacy,lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.40
+11.64,Target (CSV),lipitor,tablet,40mg,30,atorvastin,53703,Coupon,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.41
+12,HealthWarehouse,lipitor,tablet,40mg,30,atorvastin,53703,Online,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.42
+6.22,Walmart,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 8
+7.67,Membership warehouse,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 9
+9.12,Walgreens,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 10
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 11
+11.64,CVS Pharmacy,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 12
+11.64,Target (CSV),lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 13
+12,HealthWarehouse,lipitor,tablet,80mg,15,Lipitor,60201,Online,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 14
+6.22,Walmart,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+7.67,Membership warehouse,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+9.12,Walgreens,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+11.64,CVS Pharmacy,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+11.64,Target (CSV),lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+12,HealthWarehouse,lipitor,tablet,80mg,15,Lipitor,60201,Online,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+6.22,Walmart,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.51
+7.67,Membership warehouse,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.52
+9.12,Walgreens,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.53
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.54
+11.64,CVS Pharmacy,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.55
+11.64,Target (CSV),lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.56
+12,HealthWarehouse,lipitor,tablet,80mg,15,Lipitor,60201,Online,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.57
+6.22,Walmart,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.36
+7.67,Membership warehouse,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.37
+9.12,Walgreens,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.38
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.39
+11.64,CVS Pharmacy,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.40
+11.64,Target (CSV),lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.41
+12,HealthWarehouse,lipitor,tablet,80mg,15,Lipitor,60201,Online,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.42
+6.22,Walmart,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.36
+7.67,Membership warehouse,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.37
+9.12,Walgreens,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.38
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.39
+11.64,CVS Pharmacy,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.40
+11.64,Target (CSV),lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.41
+12,HealthWarehouse,lipitor,tablet,80mg,15,Lipitor,60201,Online,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.42
+6.22,Walmart,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.36
+7.67,Membership warehouse,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.37
+9.12,Walgreens,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.38
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.39
+11.64,CVS Pharmacy,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.40
+11.64,Target (CSV),lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.41
+12,HealthWarehouse,lipitor,tablet,80mg,15,Lipitor,60201,Online,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.42
+6.22,Walmart,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.0
+7.67,Membership warehouse,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.1
+9.12,Walgreens,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.2
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.3
+11.64,CVS Pharmacy,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.4
+11.64,Target (CSV),lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.5
+12,HealthWarehouse,lipitor,tablet,80mg,15,Lipitor,60201,Online,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.6
+6.22,Walmart,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+7.67,Membership warehouse,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.1
+9.12,Walgreens,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.2
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.3
+11.64,CVS Pharmacy,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.4
+11.64,Target (CSV),lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.5
+12,HealthWarehouse,lipitor,tablet,80mg,15,Lipitor,60201,Online,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.6
+6.22,Walmart,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.27
+7.67,Membership warehouse,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.28
+9.12,Walgreens,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.29
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.30
+11.64,CVS Pharmacy,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.31
+11.64,Target (CSV),lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.32
+12,HealthWarehouse,lipitor,tablet,80mg,15,Lipitor,60201,Online,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.33
+6.22,Walmart,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.36
+7.67,Membership warehouse,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.37
+9.12,Walgreens,lipitor,tablet,80mg,15,Lipitor,60201,Discount,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.38
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.39
+11.64,CVS Pharmacy,lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.40
+11.64,Target (CSV),lipitor,tablet,80mg,15,Lipitor,60201,Coupon,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.41
+12,HealthWarehouse,lipitor,tablet,80mg,15,Lipitor,60201,Online,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.42
+6.22,Walmart,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 8
+7.67,Membership warehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 9
+9.12,Walgreens,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 10
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 11
+11.64,CVS Pharmacy,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 12
+11.64,Target (CSV),lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 13
+12,HealthWarehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Online,Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; Media Center PC 6.0; InfoPath.2; MS-RTC LM 14
+6.22,Walmart,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+7.67,Membership warehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+9.12,Walgreens,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+11.64,CVS Pharmacy,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+11.64,Target (CSV),lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+12,HealthWarehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Online,Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; .NET CLR 2.7.58687; SLCC2; Media Center PC 5.0; Zune 3.4; Tablet PC 3.6; InfoPath.3)
+6.22,Walmart,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.51
+7.67,Membership warehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.52
+9.12,Walgreens,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.53
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.54
+11.64,CVS Pharmacy,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.55
+11.64,Target (CSV),lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.56
+12,HealthWarehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Online,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; de) Opera 11.57
+6.22,Walmart,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.36
+7.67,Membership warehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.37
+9.12,Walgreens,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.38
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.39
+11.64,CVS Pharmacy,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.40
+11.64,Target (CSV),lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.41
+12,HealthWarehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Online,Mozilla/5.0 (X11; CrOS i686 3912.101.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/27.0.1453.116 Safari/537.42
+6.22,Walmart,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.36
+7.67,Membership warehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.37
+9.12,Walgreens,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.38
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.39
+11.64,CVS Pharmacy,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.40
+11.64,Target (CSV),lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.41
+12,HealthWarehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Online,Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.0 Safari/537.42
+6.22,Walmart,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.36
+7.67,Membership warehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.37
+9.12,Walgreens,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.38
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.39
+11.64,CVS Pharmacy,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.40
+11.64,Target (CSV),lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.41
+12,HealthWarehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Online,Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.67 Safari/537.42
+6.22,Walmart,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.0
+7.67,Membership warehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.1
+9.12,Walgreens,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.2
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.3
+11.64,CVS Pharmacy,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.4
+11.64,Target (CSV),lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.5
+12,HealthWarehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Online,Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.6
+6.22,Walmart,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.0
+7.67,Membership warehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.1
+9.12,Walgreens,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.2
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.3
+11.64,CVS Pharmacy,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.4
+11.64,Target (CSV),lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.5
+12,HealthWarehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Online,Mozilla/5.0 (Windows NT 6.2; Win64; x64;) Gecko/20100101 Firefox/20.6
+6.22,Walmart,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.27
+7.67,Membership warehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.28
+9.12,Walgreens,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.29
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.30
+11.64,CVS Pharmacy,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.31
+11.64,Target (CSV),lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.32
+12,HealthWarehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Online,Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_8; ja-jp) AppleWebKit/533.20.25 (KHTML like Gecko) Version/5.0.4 Safari/533.20.33
+6.22,Walmart,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.36
+7.67,Membership warehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.37
+9.12,Walgreens,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Discount,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.38
+9.12,"Community, a Walgreens Pharmacy",lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.39
+11.64,CVS Pharmacy,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.40
+11.64,Target (CSV),lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Coupon,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.41
+12,HealthWarehouse,lipitor,tablet,20mg,60,Lipitor,"Chicago, IL",Online,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML like Gecko) Chrome/41.0.2227.1 Safari/537.42

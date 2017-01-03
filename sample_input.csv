@@ -1,0 +1,7 @@
+"Drug name
+",Form,"Dosage
+",Quantity,Label Override,Zip/Location
+diazepam,tablet,5mg,60,diazepam,53703
+lipitor,tablet,40mg,30,atorvastatin,53703
+lipitor,tablet,80mg,15,Lipitor,60201
+lipitor,tablet,20mg,60,Lipitor,"Chicago, IL"
