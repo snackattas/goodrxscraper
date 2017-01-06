@@ -266,7 +266,7 @@ class Driver():
     def buildURL(self, drug, mobile=""):
         if mobile == True:
             mobile = 'm.'
-        return "https://{}goodrx.com/{}?drug-name={}&form={}&dosage={}&quantity="\
+        return "http://www.{}goodrx.com/{}?drug-name={}&form={}&dosage={}&quantity="\
             "{}&days_supply=&label_override={}".format(mobile, drug.drug_name, drug.drug_name,
                 drug.form, drug.dosage, drug.quantity, drug.label_override)
 
@@ -285,7 +285,7 @@ class Driver():
                 yield driver, user_agent, browser, url
 
 
-def Chrome(driver, drug):
+def Chrome(driver, drug, url):
     try:
         location_button = WebDriverWait(driver, wait).until(\
             EC.presence_of_element_located((By.ID, "setLocationButton")))
@@ -308,6 +308,8 @@ def Chrome(driver, drug):
     view_more_pharmacies = True
     coupons = []
     Coupon = namedtuple("Coupon", ["price", "store_name", "method"])
+    driver.get(url)
+    time.sleep(wait)
     try:
         while view_more_pharmacies:
             view_more_pharmacies = False
@@ -338,8 +340,17 @@ def Chrome(driver, drug):
         log.error("Main parsing logic broken for Chrome:\n%s\n%s" % (drug, coupons,))
     return coupons
 
+def checkForModalInIE(driver):
+    modal = driver.find_elements_by_xpath("//div[contains(@class,"\
+        "'modal-backdrop') and contains(@class, 'in')]")
+    if modal:
+        dont_show_again = WebDriverWait(driver, wait).until(\
+            EC.presence_of_element_located((By.CLASS_NAME, "dont-show-again")))
+        time.sleep(wait)
+        dont_show_again.click()
 
-def InternetExplorer(driver, drug):
+
+def InternetExplorer(driver, drug, url):
     try:
         location_input = WebDriverWait(driver, wait).until(\
             EC.presence_of_element_located((By.XPATH,
@@ -351,22 +362,23 @@ def InternetExplorer(driver, drug):
         log.error(traceback.format_exc())
         log.error("Couldn't load location for %s in browser %s" % (drug, "Internet Explorer"))
         return []
+
+    driver.get(url)
+    time.sleep(wait)
+    view_more_pharmacies = True
+    coupons = []
+    Coupon = namedtuple("Coupon", ["price", "store_name", "method"])
+
     try:
-        view_more_pharmacies = True
-        coupons = []
-        Coupon = namedtuple("Coupon", ["price", "store_name", "method"])
         while view_more_pharmacies:
+            checkForModalInIE(driver)
             view_more_pharmacies = False
             if coupons:
-                driver.find_element_by_id("load-more-pharmacies").click()
-                time.sleep(wait*1.5)
-                modal = driver.find_elements_by_xpath("//div[contains(@class,"\
-                    "'modal-backdrop') and contains(@class, 'in')]")
-                if modal:
-                    dont_show_again = WebDriverWait(driver, wait).until(\
-                        EC.presence_of_element_located((By.CLASS_NAME, "dont-show-again")))
-                    time.sleep(wait)
-                    dont_show_again.click()
+                load_more = WebDriverWait(driver, wait).until(\
+                    EC.presence_of_element_located((By.ID, "load-more-pharmacies")))
+                load_more.click()
+                time.sleep(wait*2.5)
+                checkForModalInIE(driver)
 
             row_region = driver.find_element_by_class_name("price-group-expanded")
             rows = row_region.find_elements_by_class_name("drug-prices-result")
@@ -392,7 +404,7 @@ def InternetExplorer(driver, drug):
     return coupons
 
 
-def Safari(driver, drug):
+def Safari(driver, drug, url):
     try:
         location_button = WebDriverWait(driver, wait).\
             until(EC.presence_of_element_located(\
@@ -408,7 +420,7 @@ def Safari(driver, drug):
         location_input.send_keys(str(drug.location) + "\n")
         time.sleep(wait)
         location_loaded = WebDriverWait(driver, wait).\
-            until_not(EC.presence_of_element_located(\
+            until(EC.presence_of_element_located(\
             (By.XPATH, "//body[contains(@class, 'no-overflow')]")))
     except Exception as e:
         log.error(traceback.format_exc())
@@ -418,7 +430,8 @@ def Safari(driver, drug):
     view_more_pharmacies = True
     coupons = []
     Coupon = namedtuple("Coupon", ["price", "store_name", "method"])
-
+    driver.get(url)
+    time.sleep(wait)
     try:
         while view_more_pharmacies:
             view_more_pharmacies = False
@@ -427,7 +440,10 @@ def Safari(driver, drug):
                 other_pharmacies = drug_list.find_element_by_class_name("more-pharmacies-bar")
                 other_pharmacies.click()
                 time.sleep(wait)
-            drug_list = driver.find_element_by_class_name("drug-price-list")
+
+            drug_list = WebDriverWait(driver, wait).until(\
+                EC.presence_of_element_located(\
+                (By.CLASS_NAME, "drug-price-list")))
             rows = drug_list.find_elements_by_class_name("list-item")
             for row in rows:
                 store_name = row.find_element_by_class_name("pharmacy-name").text
@@ -466,14 +482,15 @@ if __name__ == "__main__":
     for drug in csv_tool.drugs:
         for driver, user_agent, browser, url in driver_tool.setupDrivers(drug):
             driver.get(url)
+            coupons = []
             if browser == "Safari":
-                coupons = Safari(driver, drug)
+                coupons = Safari(driver, drug, url)
             if browser == "Chrome":
-                coupons = Chrome(driver, drug)
+                coupons = Chrome(driver, drug, url)
             if browser == "Internet Explorer":
-                coupons = InternetExplorer(driver, drug)
+                coupons = InternetExplorer(driver, drug, url)
             log.info("\nLoaded coupons from browser %s @ %s\n%s" % (browser, url, drug))
             for coupon in coupons:
                 csv_tool.putcsv(drug, coupon, browser, user_agent)
-            driver.quit()
+            driver.close()
     csv_tool.savecsv()
